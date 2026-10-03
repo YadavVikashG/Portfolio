@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resume of Vikash Gajraj Yadav, aspiring full-stack developer.">
+  <title>Resume | Vikash Gajraj Yadav</title>
+  <style>
+    :root { color-scheme: light; --ink: #17231f; --muted: #56615c; --accent: #3159e8; --sans: "Avenir Next", Avenir, "Segoe UI", sans-serif; --serif: Georgia, "Times New Roman", serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #edf0eb; color: var(--ink); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+    .toolbar { display: flex; width: min(850px, calc(100% - 36px)); justify-content: space-between; align-items: center; margin: 20px auto 12px; }
+    .back-link { color: var(--ink); font-size: 13px; text-decoration-thickness: 1px; text-underline-offset: 4px; }
+    .print-button { min-height: 40px; padding: 0 15px; border: 0; background: var(--ink); color: white; font: 650 12px var(--sans); cursor: pointer; }
+    .print-button:hover { background: var(--accent); }
+    .paper { width: min(850px, calc(100% - 36px)); min-height: 1050px; margin: 0 auto 30px; padding: 56px 66px; background: white; box-shadow: 0 9px 36px rgba(23, 35, 31, .09); }
+    .resume-header { padding-bottom: 24px; border-bottom: 2px solid var(--ink); }
+    h1 { margin: 0; font-family: var(--serif); font-size: 36px; font-weight: 400; line-height: 1.1; }
+    .headline { margin: 9px 0 14px; color: var(--accent); font-size: 13px; font-weight: 700; }
+    .contact { display: flex; flex-wrap: wrap; gap: 7px 16px; color: var(--muted); font-size: 10.5px; }
+    .contact a { color: inherit; text-decoration: none; }
+    .section { margin-top: 22px; }
+    h2 { margin: 0 0 10px; color: var(--accent); font-size: 11px; font-weight: 800; text-transform: uppercase; }
+    .summary { margin: 0; color: #333d38; font-size: 11.5px; line-height: 1.65; }
+    .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; }
+    .skill { margin: 0; color: #333d38; font-size: 10.5px; line-height: 1.6; }
+    .skill strong { color: var(--ink); }
+    .role-line { display: flex; justify-content: space-between; gap: 15px; align-items: baseline; }
+    h3 { margin: 0; font-size: 12px; font-weight: 750; }
+    .date { color: var(--muted); font-size: 10px; }
+    .project-meta { margin: 4px 0 7px; color: var(--muted); font-size: 10px; }
+    ul { margin: 7px 0 0; padding-left: 17px; }
+    li { padding-left: 2px; color: #333d38; font-size: 10.5px; line-height: 1.55; }
+    li + li { margin-top: 4px; }
+    .education-line { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 5px 15px; }
+    .focus-line { margin: 0; color: #333d38; font-size: 10.5px; line-height: 1.6; }
+    @media (max-width: 620px) { .paper { min-height: 0; padding: 36px 28px; } h1 { font-size: 31px; } .skills { grid-template-columns: 1fr; gap: 6px; } .contact { gap: 7px 11px; } }
+    @page { size: A4; margin: 14mm; }
+    @media print { body { background: white; } .toolbar { display: none; } .paper { width: auto; min-height: 0; margin: 0; padding: 0; box-shadow: none; } .section { margin-top: 17px; } a { color: inherit; } * { print-color-adjust: exact; -webkit-print-color-adjust: exact; } }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <a class="back-link" href="/">Back to portfolio</a>
+    <button class="print-button" type="button" onclick="window.print()">Print / save as PDF</button>
+  </div>
+  <main class="paper">
+    <header class="resume-header">
+      <h1>Vikash Gajraj Yadav</h1>
+      <p class="headline">Aspiring Software Engineer · Full-Stack Developer</p>
+      <div class="contact"><span>Titwala West, Kalyan, Thane, Maharashtra</span><a href="tel:+919140878781">+91 91408 78781</a><a href="mailto:yadavvikashgajraj@gmail.com">yadavvikashgajraj@gmail.com</a></div>
+    </header>
+    <section class="section"><h2>Professional Summary</h2><p class="summary">B.Sc. Computer Science graduate pursuing junior software and full-stack developer opportunities. Built an academic website using HTML, CSS, and JavaScript, with experience in responsive layouts, basic validation, and cross-browser checks. Currently developing skills across modern frontend, backend, and relational database technologies.</p></section>
+    <section class="section">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <p class="skill"><strong>Languages:</strong> JavaScript, Python, SQL</p>
+        <p class="skill"><strong>Frontend:</strong> HTML5, CSS3, React, Next.js</p>
+        <p class="skill"><strong>Backend:</strong> Node.js, Express.js, REST APIs</p>
+        <p class="skill"><strong>Databases:</strong> PostgreSQL, Prisma, MySQL, MongoDB (basic)</p>
+        <p class="skill"><strong>Tools:</strong> VS Code, Browser DevTools, Git, Postman</p>
+        <p class="skill"><strong>Foundations:</strong> Responsive design, UI basics, SDLC, debugging, manual testing</p>
+      </div>
+    </section>
+    <section class="section">
+      <h2>Project Experience</h2>
+      <div class="role-line"><h3>Academic Website Development</h3><span class="date">Academic project</span></div>
+      <p class="project-meta">HTML · CSS · JavaScript</p>
+      <ul>
+        <li>Designed and developed a responsive website as part of the B.Sc. Computer Science curriculum.</li>
+        <li>Created structured page layouts using HTML and CSS, with JavaScript for interactivity and basic input validation.</li>
+        <li>Checked cross-browser compatibility and mobile responsiveness; applied basic software development life cycle practices.</li>
+      </ul>
+    </section>
+    <section class="section"><h2>Education</h2><div class="education-line"><h3>Bachelor of Science in Computer Science</h3></div></section>
+    <section class="section"><h2>Additional Strengths</h2><p class="focus-line">Logical problem-solving · Adaptable learner · Attention to detail · Communication and teamwork</p></section>
+  </main>
+</body>
+</html>

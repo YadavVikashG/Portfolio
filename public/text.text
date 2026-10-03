@@ -1,0 +1,24 @@
+Act as a Principal Creative Technologist and World-Class Frontend Architect. Build a highly advanced, production-ready, and performant single-page portfolio website for a [insert your role, e.g., Senior Full-Stack Engineer / Creative Developer] named [Your Name].
+
+### 1. Architectural & Engineering Constraints:
+- Architecture: Component-driven, mobile-first responsive, semantic HTML, and strict TypeScript. Use Tailwind CSS for styling.
+- Performance: Optimized for a perfect 100/100 Lighthouse score. Utilize component lazy-loading, dynamic imports for heavy assets, dynamic responsive imagery, and hardware-accelerated layouts.
+- Accessibility: Strictly WCAG 2.1 AA compliant. Include full ARIA attributes, semantic landmarks, focus-trap management for overlays, keyboard-navigable interactive states, and a 'prefers-reduced-motion' media query safeguard.
+
+### 2. Premium Design System & Micro-interactions:
+- Aesthetic: High-end B2B SaaS meets avant-garde editorial. A dark mode base (#09090B) with subtle radial mesh gradient backgrounds, crisp borders (#27272A), and sophisticated typography (Inter/Geist for UI text, a high-contrast serif or bold display font for headers). 
+- Micro-interactions: Smooth, spring-physics micro-animations on all interactive elements. Buttons must feature a magnetic hover effect tracking the cursor coordinate vector. 
+- Transitions: Implement fluid page transitions and entering/exiting scroll-driven viewport reveal animations using Framer Motion (or equivalent utility).
+
+### 3. Advanced Layout & Section Specifications:
+- Navigation: A sticky, glassmorphic (backdrop-filter) top navigation bar. Includes an animated brand mark, section anchor links with a staggered hover underline effect, and a high-contrast secondary CTA button.
+- Hero Section: An asymmetric layout featuring an ultra-bold typographic value proposition. Integrate a dynamic typing text carousel cycling through key skills. Below it, place an interactive "Status: Available for contracts" badge and primary/secondary button arrays with custom SVGs.
+- Infinite Text Marquee: A continuous, infinite horizontal ticker ribbon displaying core capabilities or buzzwords, pausing smoothly on mouse hover.
+- Advanced Project Showcase: A 3-column masonry grid or interactive bento-box layout featuring 4 projects. Each card must support:
+  - An absolute-positioned project tech tag container using a glass effect.
+  - A hidden "View Project Details" slide-up overlay triggering on hover.
+  - A modal click-event that injects clean, client-side data (Project challenge, architecture, metrics, Github link, and live URL).
+- Experience Timeline & Tech Stack: A two-column interactive layout. Left column: A vertical timeline connected by a dynamic, scroll-drawn progress line highlighting career milestones with concrete metrics (e.g., "\$2M ARR growth"). Right column: An interactive bento-grid categorized by core technologies, featuring an explicit visual indicator of proficiency levels (e.g., custom SVG progress gauges or clean metadata).
+- Contact Footer & Terminal: An expansive footer featuring a minimal "Let's build something next-gen" statement alongside an interactive retro-styled CLI text terminal input field (simulating bash commands like `help`, `about`, `skills`, `clear`). Below, include accessible, clean text links to GitHub, LinkedIn, and Email.
+
+Generate clean, modular, and modularized code blocks that adhere strictly to these engineering parameters. Do not truncate components.
